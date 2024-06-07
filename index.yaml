@@ -6,7 +6,7 @@ info:
   contact:
     email: admin@admin.com
     url: https://catfact.ninja
-    name: Amanda Nickels
+    name: Liz Fedak
   license:
     name: commons
     url: https://catfact.ninja
@@ -14,7 +14,7 @@ info:
   version: 1.0.0
 servers:
   - url: https://catfact.ninja
-    description: prodasdsadasdasd
+    description: API for fun facts about cats.
 paths:
   /breeds:
     get:
@@ -34,7 +34,7 @@ paths:
             format: int64
       responses:
         '200':
-          description: Normal operation
+          description: successful operation
           content:
             application/json:
               example: success
